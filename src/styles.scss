@@ -1,17 +1,55 @@
-// $primary: #276fc2;
-// $secondary: #e8d21d;
-// $border-radius: 1px;
-
 $primary: #246259;
 $secondary: #c4dc34;
-$tonal: #9cb19c;
-$light: #e5efde;
+$success: #41dc79;
+$danger: #fa7a52;
+$warning: #ffc107;
 $info: #1a73e8;
-$dark: #121212;
+$light: #e5efde;
+$dark: #212529;
+$border: #dee2e6;
 
-$font-family-base: Lato, Arial, Sans-serif;
-$btn-font-weight: 'bold';
-$btn-font-size: 1em;
-$btn-primary-background-color: #9cb19c;
+$font-families-default-font: Lato;
+$line-heights-0: 120%;
+$font-weights-default-font: Regular;
+$font-size-0: 16;
+$font-size-1: 20;
+$font-size-2: 24;
+$font-size-3: 28;
+$font-size-4: 32;
+$font-size-5: 40;
+$letter-spacing-0: 0%;
+$paragraph-spacing-0: 0;
+$heading-1: [object Object];
+$heading-2: [object Object];
+$heading-3: [object Object];
+$heading-4: [object Object];
+$heading-5: [object Object];
+$heading-6: [object Object];
+$text-case-none: none;
+$text-decoration-none: none;
+$paragraph-indent-0: 0px;
+
+$input-btn-border-width: 0.2rem;
+$input-btn-focus-color-opacity: 0%;
+$border-color: $primary;
+
+@import 'figma-to-bootstrap';
 
 @import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+$input-border-color: $primary;
+$input-focus-border-color: $secondary;
+$input-disabled-border-color: $tonal;
+
+@import '../node_modules/bootstrap/scss/mixins';
+@import '../node_modules/bootstrap/scss/root';
+@import '../node_modules/bootstrap/scss/reboot';
+@import '../node_modules/bootstrap/scss/type';
+@import '../node_modules/bootstrap/scss/images';
+@import '../node_modules/bootstrap/scss/grid';
+@import '../node_modules/bootstrap/scss/tables';
+@import '../node_modules/bootstrap/scss/forms';
+@import '../node_modules/bootstrap/scss/buttons';
+@import '../node_modules/bootstrap/scss/utilities';
